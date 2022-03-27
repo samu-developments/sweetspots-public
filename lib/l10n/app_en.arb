@@ -1,0 +1,335 @@
+{
+  "app_name": "Sweetspots",
+
+  "splashTitle": "Loading camps...",
+  "connectivityTitle": "Could not load data, not internet connection.",
+
+  "commonBack": "Back",
+  "commonName": "Name",
+  "commonErrorTryAgain": "An error occured, please try again.",
+
+  "onboardingFirstTitle": "Camping has never been more sweet",
+  "onboardingFirstBody1": "Find the perfect camp spot, or share your own favorites.",
+  "onboardingFirstBody2": "Sweetspots is in open beta. Please help improve Sweetspots by sharing ideas and bugs, and most importantly any nice (or not that nice!) camping spots you have pictures of! Thank you! :)",
+  "onboardingFirstBody3": "Sweetspots share some data with 3rd parties to be able to function.",
+  "onboardingFirstBody4": "Privacy policy",
+
+  "onboardingStart": "Sweet!",
+
+  "sweetspotsAbout": "Sweetspots is a small app for exploring and sharing camp spots in Norway. All content is user generated - if you have a favorite spot there probably exist many other people who would enjoy using it!",
+  "sweetspotsFree": "Sweetspots is of course 100% free to use, just like nature should be.",
+  "aboutVersion": "Version",
+
+  "tryWebBeta": "Try the web beta",
+
+  "mapSearchHint": "Search...",
+  "mapActionTooltipGps": "Turn on GPS",
+  "mapActionTooltipLayer": "Choose map layer",
+  "mapLayerDefault": "Map",
+  "mapLayerSatellite": "Satellite",
+  "mapActionAddHint": "Add camp",
+  "mapAddToFarAway": "You need to zoom closer to add a camp.",
+
+  "mapFilterMore": "Filter camp spots",
+  "mapFilterClear": "Clear",
+
+  "filterExtendedTitle": "Add filters",
+  "filterExtendedApply": "Save",
+  "filterExtendedClear": "Clear",
+  "filterExtendedStars": "Stars",
+  "filterExtendedSliderValue": "Max distance: {radius} km",
+  "@filterExtendedSliderValue" : {
+        "placeholders": {
+            "radius": {}
+            }
+    },
+  "filterExtendedSliderValueShowAll": "Max distance:  -  km",
+
+  "drawerNotLoggedIn": "Not signed in",
+  "drawerLogIn": "Sign in",
+  "drawerLogOut": "Sign out",
+  "drawerProfile": "Profile",
+  "drawerDeleteUser": "Delete user",
+  "drawerAboutTitle": "About Sweetspots",
+  "drawerFeedback": "Give feedback",
+  "drawerFeedbackSubject": "Sweetspots feedback",
+  "drawerFavoritedCamps": "My favorites",
+  "drawerTripPlanner": "Trip planner",
+  "drawerTripPlannerAddList": "Add list",
+  "drawerMyCamps": "My camps",
+  "drawerToplist": "Top list",
+  "drawerSnackBarUserDeleted": "Your user was deleted!",
+  "drawerAllemannsretten": "Freedom to roam",
+  "drawerSettings": "Settings",
+
+  "tripPlannerTitle": "Trip planner",
+  "plannerAddList": "Add new trip plan",
+  "plannerAddToList": "Add to trip plan",
+  "plannerAddListName": "Enter plan name",
+  "plannerAddListNameLabel": "Plan name",
+  "plannerAddListNameAdded": "Plan {name} added!",
+  "@plannerAddListNameAdded" : {
+        "placeholders": {
+            "name": {}
+            }
+    },
+  "plannerAddListNameExist": "Plan {name} already exist!",
+  "@plannerAddListNameExist" : {
+        "placeholders": {
+            "name": {}
+            }
+    },
+  "plannerAddSpotAdded": "Spot added to {plan}!",
+  "plannerAddSpotAddedShowInPlan": "Open plan",
+  "@plannerAddSpotAdded" : {
+        "placeholders": {
+            "plan": {}
+            }
+    },
+  "plannerListDeleteSpot": "Delete",
+  "plannerListDeleteSpotDeleted": "Spot deleted from plan!",
+  "plannerListDeleted": "Plan {plan} deleted!",
+  "@plannerListDeleted" : {
+        "placeholders": {
+            "plan": {}
+            }
+    },
+  "plannerSlideActionAdd": "Add",
+
+  "settingsTitle": "Settings",
+  "settingsMap": "Map",
+  "settingsMapV2": "Use new map (beta)",
+  "settingsMapV2Description": "Supports clustering with #symbols.",
+  "settingsCluster": "Cluster symbols",
+  "settingsCompass": "Show compass",
+  "settingsTilt": "Tilt map",
+  "settingsRotate": "Rotate map",
+
+  "hamburgerToolTip": "Show sidebar",
+
+  "snackBarNorway": "Camp needs to be in Norway.",
+  "snackBarCampAdded": "Camp added!",
+
+  "pointSheetDelete": "Delete position",
+  "pointSheetSave": "Save position",
+  "pointSheetAddCamp": "Add camp",
+
+  "favoriteAddHint": "Add camp to favorites",
+  "favoriteAdded": "Camp added to favorites",
+  "favoriteRemoved": "Camp removed from favorites",
+
+  "popupReportCamp": "Report camp",
+  "popupReportComment": "Report comment",
+  "popupReportImage": "Report image",
+  "popupRemoveReport": "Delete report",
+
+  "campTypeCamp": "Camp",
+  "campTypeInfo": "Info point",
+
+  "campDetailTitleCamp": "Camp",
+  "campDetailTitleInfo": "Info point",
+  "campDetailFeatures": "Features",
+  "campDetailDescription": "Description",
+  "campDetailRate": "Give a rating",
+  "campDetailEditRate": "Change rating",
+  "campDetailShowOnMap": "Show on map",
+  "campDetailOpenDialog": "Open in..",
+  "campDetailOpenDialogCancel": "Close",
+  "campDetailOpenDialogNoneFound": "No map apps found!",
+  "campDetailOpenGMaps": "Open in Google Maps",
+  "campDetailOpenExternal": "Open externally",
+  "campDetailCreatedBy": "Published by",
+  "campDetailCreatedByUnknown": "unknown",
+  "campDetailDelete": "Delete camp",
+
+  "featureTent": "Tent",
+  "featureHammock": "Hammock",
+  "featureWater": "Water",
+  "featureSunset": "Sunset",
+  "featureSunrise": "Sunrise",
+  "featureWinter": "Winter",
+
+  "campTabInfo": "Information",
+  "campTabComments": "Comments",
+
+  "gallerySnackBarLike": "Please like someones else's image..",
+  "gallerySnackBarDeleteError": "A camp has to have at least 1 image, please upload an image before you delete this one.",
+  "galleryUploadedBy": "Uploaded by {name}.",
+  "@galleryUploadedBy": {
+      "placeholders": {
+          "name": {}
+      }
+  },
+  "galleryPopupDelete": "Delete image",
+
+  "commentsNoComments": "No comments for this camp, be the first one!",
+
+  "publish": "Publish",
+
+  "addCampTitle": "Add camp",
+  "addCampInfoTitle": "Add info point",
+  "addCampAnonymousTitle": "Publish anonymous",
+  "addCampAnonymousSubtitle": "Hide your name and profile photo.",
+  "addCampFeaturesDescription": "Select the features that apply for the camp. This makes it easier for other people to find a camp that fits them.",
+  "addCampDescriptionDescription": "Add a short description about the camp which could be interesting for others to know.",
+  "addCampUserError": "Could not publish camp, please fix errors!",
+  "addCampErrorUploading": "Error uploading camp, please try again later!",
+  "addCampErrorImage": "Please add at least 1 image!",
+  "addCampImageTooMany": "A maximum of 5 images can be added!",
+  "addCampErrorDescription": "Enter a short camp description",
+  "addCampInputDescriptionLabel": "Description",
+  "addCampPublishNoInternet": "Can't publish camp, no internet connection!",
+  "addCampNoInternet": "Can't add camp, no internet connection!",
+
+  "addCampInfoDescriptionDescription": "Add description about the info point others might find useful.",
+
+  "addImageCropTitle": "Crop image",
+  "addImageUnknownError": "Could not add image",
+  "addImageUploadNoInternet": "Can't upload image, no internet connection!",
+  "addImageNoInternet": "Can't add image, no internet connection!",
+  "addImageInProgress": "Uploading image..",
+
+  "editCampTitle": "Edit camp",
+  "editCampHeader": "Edit images from the gallery view",
+  "editCampImagesNotice": "Images can not be edited here. Please add/delete images from the gallery view.",
+  "editCampLocation": "Location",
+  "editCampLocationDescription": "Pinpoint the camp as precise as possible. Use of satellite map is recommended.",
+
+  "addCommentNewTitle": "Add comment",
+  "addCommentEditTitle": "Edit comment",
+  "addRatingTitle": "Rate",
+  "addCommentPublic": "Comments are posted publicly under your own name and photo.",
+  "addCommentEnter": "Enter a comment",
+  "addCommentLabel": "Comment",
+  "addCommentDelete": "Delete comment",
+
+  "loginTitle": "Sign in",
+  "loginLoading": "Signing in...",
+  "loginSelect": "Select sign in method",
+  "loginErrorFailed": "Sign in failed. Please try again.",
+  "loginErrorAccountExists": "Account already exists! Please sign in with {provider}.",
+  "@loginErrorAccountExists": {
+      "placeholders": {
+          "provider": {}
+      }
+  },
+  "loginErrorNetwork": "You need an internet connection to sign in.",
+  "loginFacebook": "Sign in with Facebook",
+  "loginGoogle": "Sign in with Google",
+  "loginApple": "Sign in with Apple",
+
+  "aboutTitle": "About Sweetspots",
+  "aboutHeader": "Sweetspots",
+  "aboutText1": "Sweetspots was made as a way for people to easier find awesome free camping spots all over Norway.",
+  "aboutText2": "Sweetspots is made with lots of kos in Norway <3",
+  "aboutContact": "Contact",
+  "aboutContactSubject": "Sweetspots contact",
+
+  "policyTitle": "Sweetspots Privacy Policy",
+  "policyHeader": "Policy",
+  "policyText1": "By using the app, some data is sent to 3rd parties (Mapbox, Google, Apple, Facebook). This is necessary to deliver the service. By signing in, Sweetspots is saving your email, name, and profile picture.",
+  "policyUrl": "http://bit.ly/koyekos-privacy",
+
+  "campListLoading": "Looking for camps...",
+  "campListUnfavoritedUndo": "UNDO",
+  "favoriteTitle": "My favorites",
+  "favoriteNoCampsFound1": "You have not favorited any camps!",
+  "favoriteNoCampsFound2": "Press",
+  "favoriteNoCampsFound3": "to favorite a camp.",
+  "createdTitle": "My camps",
+  "createdNoCampsFound1": "You have not published any camps!",
+  "createdNoCampsFound2": "Press",
+  "createdNoCampsFound3": "to share a camp.",
+  "tripPlannerNoPlansFound1": "You have not added any trip plans!",
+  "tripPlannerNoPlansFound2": "Press",
+  "tripPlannerNoPlansFound3": "to add a trip plan.",
+  "tripPlannerNoCampsFound1": "You have not added any spots to this trip plan!",
+  "tripPlannerNoCampsFound2": "Press",
+  "tripPlannerNoCampsFound3": "to add a spot.",
+  "toplistTitle": "Top list",
+  "noCampsFound": "Found no camps",
+
+  "dialogDismiss": "Dismiss",
+
+  "dialogReportTitle": "Report",
+  "dialogReportReason": "Please select one or more reason(s) for the report.",
+  "dialogReportActionReport": "Report",
+  "dialogReportSuccess": "Report added!",
+  "dialogReportRemoveTitle": "Delete report?",
+  "dialogReportActionRemove": "Delete",
+  "dialogReportRemoveSuccess": "Report deleted!",
+  "dialogReportReasonLowEffort": "Low quality",
+  "dialogReportReasonInaccurate": "Wrong information",
+  "dialogReportReasonOffensive": "Offensive content",
+  "dialogReportReasonIllegal": "Private area",
+  "dialogReportReasonOther": "Other reason",
+  "dialogReportReasonOtherLabel": "Reason",
+  "dialogReportReasonOtherHint": "Describe reason",
+
+  "dialogLoginTitle": "Sign in",
+  "dialogLoginContent1": "You need to be signed in to {action}.",
+  "@dialogLoginContent1": {
+      "placeholders": {
+          "action": {}
+      }
+  },
+  "dialogLoginActionContinue": "Continue without user",
+  "dialogLoginActionLogin": "Sign in",
+  "dialogLoginReasonAddCamp": "add a camp",
+  "dialogLoginReasonAddImage": "add an image",
+  "dialogLoginReasonRateCamp": "rate a camp",
+  "dialogLoginReasonAddComment": "add a comment",
+  "dialogLoginReasonLikeImage": "like an image",
+  "dialogLoginReasonLikeComment": "like a comment",
+  "dialogLoginReasonReport": "report",
+  "dialogLoginReasonAddTripPlan": "add a trip plan",
+  "dialogLoginReasonAddToTripPlan": "add a spot to a trip plan",
+
+  "dialogWebTitle": "Web not supported",
+  "dialogWebContent": "Adding camp from web is currently not supported. Please use the mobile app.",
+  "dialogWebActionDismiss": "Close",
+
+  "dialogConfirmTitle": "Confirm action",
+  "dialogConfirmShort": "Confirm",
+
+  "dialogConfirmContentDeleteComment": "Delete comment?",
+  "dialogConfirmContentDeleteImage": "Delete image?",
+  "dialogConfirmContentDeleteCamp": "Delete camp?",
+  "dialogConfirmContentAddImage": "Add image?",
+  "dialogConfirmContentLogOut": "Sign out? You need an internet connection to load Sweetspots again.",
+  "dialogConfirmContentDeleteUser": "Delete your user from Sweetspots. Camp spots, comments, and images have to be deleted _before_ you delete your user. This action cannot be undone.",
+  "dialogConfirmContentDeleteTripPlan": "Delete trip plan {plan}?",
+  "@dialogConfirmContentDeleteTripPlan" : {
+        "placeholders": {
+            "plan": {}
+            }
+    },
+
+  "dialogConfirmActionDelete": "Delete",
+  "dialogConfirmActionDismiss": "Dismiss",
+  "dialogConfirmActionAdd": "Add",
+  "dialogConfirmActionDeleteUser": "Delete me",
+  "dialogConfirmActionLogOut": "Sign out",
+
+  "commentDeletedSnackBar": "Comment deleted!",
+  "campDeletedSnackBar": "Camp deleted!",
+
+  "feedbackTitle": "Feedback",
+  "feedbackHint": "Feedback",
+  "feedbackLabel": "Feedback",
+  "feedbackDescription": "Help improve Sweetspots! If you have any feature requests/bugs etc. you can send in in here. You can also consider sending an email.",
+  "feedbackAddedSnackBar": "Feedback added, thanks!",
+
+  "shareEmailSubject": "Check out this Sweetspot",
+  "dynamicLinkTitle": "Check out this Sweetspot",
+  "dynamicLinkDescription": "Sweetspots is an app for discovering and sharing camp spots.",
+  "dynamicLinkInternetError": "Cannot make link, no internet connection!",
+
+  "translateHeader": "Translate",
+  "translateError": "Could not translate..",
+  "translateErrorInternet": "Could not translate, no internet connection!",
+
+  "anonymous": "Anonymous",
+  "uploadedByYou": "you."
+
+}

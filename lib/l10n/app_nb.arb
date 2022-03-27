@@ -1,0 +1,335 @@
+{
+  "app_name": "Sweetspots",
+
+  "splashTitle": "Speider etter leirplasser...",
+  "connectivityTitle": "Kan ikke laste inn data, ingen internett-forbindelse.",
+
+  "commonBack": "Tilbake",
+  "commonName": "Navn",
+  "commonErrorTryAgain": "Noe gikk galt, vennligst prøv igjen.",
+
+  "onboardingFirstTitle": "Friluftsliv har aldri vært mer sweet",
+  "onboardingFirstBody1": "Finn den perfekte leirplassen, eller del dine egne favoritter.",
+  "onboardingFirstBody2": "Sweetspots er i åpen beta. Om du også digger å være i naturen og ønsker å gjøre din neste tur enda bedre kan du dele Sweetspots med venner, og ikke minst dele fine (og ikke såå fine) leirplass du har bilde av! Om det er noe du savner eller du finner bugs kan du gi tilbakemelding i appen. All tilbakemelding er velkommen. Takk! :)",
+  "onboardingFirstBody3": "Sweetspots deler posisjonsdata og enhetsdata med 3. parter for å levere tjenesten.",
+  "onboardingFirstBody4": "Personvernerklæring",
+
+  "sweetspotsAbout": "Sweetspots er en enkel liten app hvor du kan finne og dele leirplasser i Norge. Alt innhold er brukergenerert - har du en favorittplass er det sikkert mange andre som kan ha glede av å vite hvor den er!",
+  "sweetspotsFree": "Sweetspots er selvfølgelig 100% gratis å bruke, akkurat som naturen burde være.",
+  "aboutVersion": "Versjon",
+
+  "tryWebBeta": "Prøv web betaen",
+
+  "onboardingStart": "Sweet!",
+
+  "mapSearchHint": "Søk...",
+  "mapActionTooltipGps": "Skru på GPS",
+  "mapActionTooltipLayer": "Velg kartmodus",
+  "mapLayerDefault": "Kart",
+  "mapLayerSatellite": "Satellitt",
+  "mapActionAddHint": "Legg til leirplass",
+  "mapAddToFarAway": "Du må zoome nærmere for å legge til en leirplass.",
+
+  "mapFilterMore": "Flere filter",
+  "mapFilterClear": "Fjern",
+
+  "filterExtendedTitle": "Filtrer leirplasser",
+  "filterExtendedApply": "Lagre",
+  "filterExtendedClear": "Nullstill",
+  "filterExtendedStars": "Stjerner",
+  "filterExtendedSliderValue": "Max avstand: {radius} km",
+  "@filterExtendedSliderValue" : {
+        "placeholders": {
+            "radius": {}
+        }
+    },
+  "filterExtendedSliderValueShowAll": "Max avstand:  -  km",
+
+  "drawerNotLoggedIn": "Ikke logget inn",
+  "drawerLogIn": "Logg inn",
+  "drawerLogOut": "Logg ut",
+  "drawerProfile": "Profil",
+  "drawerDeleteUser": "Slett bruker",
+  "drawerAboutTitle": "Om Sweetspots",
+  "drawerFeedback": "Gi tilbakemelding",
+  "drawerFeedbackSubject": "Sweetspots tilbakemelding",
+  "drawerFavoritedCamps": "Mine favoritter",
+  "drawerTripPlanner": "Turplanlegger",
+  "drawerTripPlannerAddList": "Legg til liste",
+  "drawerMyCamps": "Mine leirplasser",
+  "drawerToplist": "Toppliste",
+  "drawerSnackBarUserDeleted": "Brukeren din er slettet!",
+  "drawerAllemannsretten": "Allemannsretten",
+  "drawerSettings": "Innstillinger",
+
+  "tripPlannerTitle": "Turplanlegger",
+  "plannerAddList": "Legg til turplan",
+  "plannerAddToList": "Legg til i en turplan",
+  "plannerAddListName": "Skriv navn på turplan",
+  "plannerAddListNameLabel": "Navn",
+  "plannerAddListNameAdded": "Turplan {name} lagt til!",
+  "@plannerAddListNameAdded" : {
+        "placeholders": {
+            "name": {}
+            }
+    },
+  "plannerAddListNameExist": "{name} finnes allerede!",
+  "@plannerAddListNameExist" : {
+        "placeholders": {
+            "name": {}
+            }
+    },
+  "plannerAddSpotAdded": "Plass lagt til i {plan}!",
+  "plannerAddSpotAddedShowInPlan": "Åpne turplan",
+  "@plannerAddSpotAdded" : {
+        "placeholders": {
+            "plan": {}
+            }
+    },
+  "plannerListDeleteSpot": "Slett",
+  "plannerListDeleteSpotDeleted": "Plass slettet fra turplan!",
+  "plannerListDeleted": "Turplan {plan} slettet!",
+  "@plannerListDeleted" : {
+        "placeholders": {
+            "plan": {}
+            }
+    },
+  "plannerSlideActionAdd": "Legg til",
+
+  "settingsTitle": "Innstillinger",
+  "settingsMap": "Kart",
+  "settingsMapV2": "Bruk nytt kart (beta)",
+  "settingsMapV2Description": "Støtter clustering med #symboler.",
+  "settingsCluster": "Clustre symboler",
+  "settingsCompass": "Vis kompass",
+  "settingsTilt": "Tilt kart",
+  "settingsRotate": "Roter kart",
+
+  "hamburgerToolTip": "Vis sidebar",
+
+  "snackBarNorway": "Leirplassen må ligge i Norge.",
+  "snackBarCampAdded": "Leirplass lagt til!",
+
+  "pointSheetDelete": "Slett posisjon",
+  "pointSheetSave": "Lagre posisjon",
+  "pointSheetAddCamp": "Legg til",
+
+  "favoriteAddHint": "Legg til i favoritter",
+  "favoriteAdded": "Lagt til i favoritter",
+  "favoriteRemoved": "Fjernet fra favoritter",
+
+  "popupReportCamp": "Rapporter leir",
+  "popupReportComment": "Rapporter kommentar",
+  "popupReportImage": "Rapporter bilde",
+  "popupRemoveReport": "Slett rapportering",
+
+  "campTypeCamp": "Leirplass",
+  "campTypeInfo": "Infopunkt",
+
+  "campDetailTitleCamp": "Leirplass",
+  "campDetailTitleInfo": "Infopunkt",
+  "campDetailFeatures": "Egenskaper",
+  "campDetailDescription": "Beskrivelse",
+  "campDetailRate": "Gi en anmeldelse",
+  "campDetailEditRate": "Endre anmeldelse",
+  "campDetailShowOnMap": "Vis i kart",
+  "campDetailOpenDialog": "Åpne i..",
+  "campDetailOpenDialogCancel": "Lukk",
+  "campDetailOpenDialogNoneFound": "Fant ingen kart-apps!",
+  "campDetailOpenGMaps": "Åpne i Google Maps",
+  "campDetailOpenExternal": "Åpne eksternt",
+  "campDetailCreatedBy": "Publisert av",
+  "campDetailCreatedByUnknown": "ukjent",
+  "campDetailDelete": "Slett leirplass",
+
+  "featureTent": "Telt",
+  "featureHammock": "Hengekøye",
+  "featureWater": "Vann",
+  "featureSunset": "Solnedgang",
+  "featureSunrise": "Soloppgang",
+  "featureWinter": "Vinter",
+
+  "campTabInfo": "Informasjon",
+  "campTabComments": "Kommentarer",
+
+  "gallerySnackBarLike": "Vennligst lik noen andre sitt bilde..",
+  "gallerySnackBarDeleteError": "En leirplass må minst ha 1 bilde, vennligst last opp et nytt før du sletter dette bildet.",
+  "galleryUploadedBy": "Lastet opp av {name}.",
+  "@galleryUploadedBy": {
+      "placeholders": {
+          "name": {}
+      }
+  },
+  "galleryPopupDelete": "Slett bilde",
+
+  "commentsNoComments": "Ingen kommentarer, bli den første!",
+
+  "publish": "Publiser",
+
+  "addCampTitle": "Legg til leirplass",
+  "addCampInfoTitle": "Legg til infopunkt",
+  "addCampAnonymousTitle": "Publiser anonymt",
+  "addCampAnonymousSubtitle": "Skjul navn og profilbildet.",
+  "addCampFeaturesDescription": "Velg egenskaper som passer for leirplassen. Dette gjør det lettere for andre å finne en leirplass som passer for dem.",
+  "addCampDescriptionDescription": "Legg til en kort beskrivelse av leirplassen. Hva som helst som kan være interesant for andre å vite.",
+  "addCampUserError": "Kan ikke publisere, vennligst korriger feilmeldinger!",
+  "addCampErrorUploading": "Kunne ikke laste opp, vennligst prøv på nytt senere!",
+  "addCampErrorImage": "Legg til minst 1 bilde!",
+  "addCampImageTooMany": "Maksimalt 5 bilder kan bli lagt til!",
+  "addCampErrorDescription": "Legg til en kort beskrivelse",
+  "addCampInputDescriptionLabel": "Beskrivelse",
+  "addCampPublishNoInternet": "Kan ikke publisere leirplass, ingen internettforbindelse!",
+  "addCampNoInternet": "Kan ikke legge til leirplass, ingen internettforbindelse!",
+
+  "addCampInfoDescriptionDescription": "Legg til en kort beskrivelse av infopunktet some andre kan være interessant for andre å vite.",
+
+  "addImageCropTitle": "Bekjær bilde",
+  "addImageUnknownError": "Kunne ikke legge til bilde",
+  "addImageUploadNoInternet": "Kan ikke laste opp bilde, ingen internettforbindelse!",
+  "addImageNoInternet": "Kan ikke legge til bilde, ingen internettforbindelse!",
+  "addImageInProgress": "Laster opp bilde..",
+
+  "editCampTitle": "Endre leirplass",
+  "editCampHeader": "Endre bilder fra galleri-visningen",
+  "editCampImagesNotice": "Bilder kan ikke endres her. Legg til/slett bilder fra galleri-visningen.",
+  "editCampLocation": "Lokasjon",
+  "editCampLocationDescription": "Lokaliser leirplassen så presist som mulig. Det anbefales å bruke satellitt-visning.",
+
+  "addCommentNewTitle": "Add comment",
+  "addCommentEditTitle": "Endre kommentar",
+  "addRatingTitle": "Anmeld",
+  "addCommentPublic": "Kommentarer deles under ditt eget navn og bilde.",
+  "addCommentEnter": "Legg til kommentar",
+  "addCommentLabel": "Kommentar",
+  "addCommentDelete": "Slett kommentar",
+
+  "loginTitle": "Logg inn",
+  "loginLoading": "Logger inn...",
+  "loginSelect": "Velg innloggingsmetode",
+  "loginErrorFailed": "Innlogging feilet. Vennligst prøv igjen.",
+  "loginErrorAccountExists": "Du har allerede registrert en bruker på denne emailadressen! Vennligst logg inn med {provider}.",
+  "@loginErrorAccountExists": {
+      "placeholders": {
+          "provider": {}
+      }
+  },
+  "loginErrorNetwork": "Du trenger internettforbindelse for å logge inn.",
+  "loginFacebook": "Logg inn med Facebook",
+  "loginGoogle": "Logg inn med Google",
+  "loginApple": "Logg inn med Apple",
+
+  "aboutTitle": "Om Sweetspots",
+  "aboutHeader": "Sweetspots",
+  "aboutText1": "Sweetspots ble laget for at folk skal lettere finne den perfekte leirplassen og ha det koselig på tur.",
+  "aboutText2": "Sweetspots er laget med mye kos i Norge <3",
+  "aboutContact": "Kontakt",
+  "aboutContactSubject": "Sweetspots kontakt",
+
+  "policyTitle": "Sweetspots Personvernerklæring",
+  "policyHeader": "Personvernerklæring",
+  "policyText1": "Ved å bruke appen sendes data automatisk til 3. parts tjenesteleverandører (Mapbox, Google, Apple, Facebook). Dette er nødvendig for å levere tjenesten. Ved å logge inn lagrer Sweetspots email-adresse, navn, og profilbilde.",
+  "policyUrl": "http://bit.ly/koyekos-privacy",
+
+  "campListLoading": "Speider etter leirplasser...",
+  "campListUnfavoritedUndo": "ANGRE",
+  "favoriteTitle": "Mine favoritter",
+  "favoriteNoCampsFound1": "Du har ikke favorisert noen leirplasser!",
+  "favoriteNoCampsFound2": "Klikk",
+  "favoriteNoCampsFound3": "for å favorisere en leirplass.",
+  "createdTitle": "Mine leirplasser",
+  "createdNoCampsFound1": "Du har ikke publisert noen leirplasser!",
+  "createdNoCampsFound2": "Klikk",
+  "createdNoCampsFound3": "for å dele en leirplass.",
+  "tripPlannerNoPlansFound1": "Du har ikke lagt til noen turplaner!",
+  "tripPlannerNoPlansFound2": "Press",
+  "tripPlannerNoPlansFound3": "for å legge til en turplan.",
+  "tripPlannerNoCampsFound1": "Du har ikke lagt til noen plasser i denn turplanleggeren!",
+  "tripPlannerNoCampsFound2": "Klikk",
+  "tripPlannerNoCampsFound3": "for å legge til en plass.",
+  "toplistTitle": "Toppliste",
+  "noCampsFound": "Fant ingen leirplasser",
+
+  "dialogDismiss": "Lukk",
+
+  "dialogReportTitle": "Report",
+  "dialogReportReason": "Vennligst gi en eller flere grunn(er) for rapporteringen.",
+  "dialogReportActionReport": "Rapporter",
+  "dialogReportSuccess": "Rapportering lagt til!",
+  "dialogReportRemoveTitle": "Slett rapportering?",
+  "dialogReportActionRemove": "Slett",
+  "dialogReportRemoveSuccess": "Rapportering slettet!",
+  "dialogReportReasonLowEffort": "Lav kvalitet",
+  "dialogReportReasonInaccurate": "Feilinformasjon",
+  "dialogReportReasonOffensive": "Støtende innhold",
+  "dialogReportReasonIllegal": "Brudd på allemannsretten",
+  "dialogReportReasonOther": "Annen grunn",
+  "dialogReportReasonOtherLabel": "Grunn",
+  "dialogReportReasonOtherHint": "Beskriv grunn",
+
+  "dialogLoginTitle": "Logg inn",
+  "dialogLoginContent1": "Du må være innlogget for å {action}.",
+  "@dialogLoginContent1": {
+      "placeholders": {
+          "action": {}
+      }
+  },
+  "dialogLoginActionContinue": "Fortsett uten bruker",
+  "dialogLoginActionLogin": "Logg inn",
+  "dialogLoginReasonAddCamp": "legge til en leirplass",
+  "dialogLoginReasonAddImage": "legge til et bilde",
+  "dialogLoginReasonRateCamp": "anmelde en leirplass",
+  "dialogLoginReasonAddComment": "legge til en kommentar",
+  "dialogLoginReasonLikeImage": "like et bilde",
+  "dialogLoginReasonLikeComment": "like en kommentar",
+  "dialogLoginReasonReport": "rapportere",
+  "dialogLoginReasonAddTripPlan": "legge til en turplan",
+  "dialogLoginReasonAddToTripPlan": "legge et spot til en turplan",
+
+  "dialogWebTitle": "Web ikke støttet",
+  "dialogWebContent": "Å legge til leirplasser fra web er foreløpig ikke støttet. Vennligst bruk mobilappen.",
+  "dialogWebActionDismiss": "Lukk",
+
+  "dialogConfirmTitle": "Bekreft handling",
+  "dialogConfirmShort": "Bekreft",
+
+  "dialogConfirmContentDeleteComment": "Slett kommentar?",
+  "dialogConfirmContentDeleteImage": "Slett bilde?",
+  "dialogConfirmContentDeleteCamp": "Slett leirplass?",
+  "dialogConfirmContentAddImage": "Legg til bilde?",
+  "dialogConfirmContentLogOut": "Logg ut? Du må ha en internettilkobling for å laste inn Sweetspots igjen.",
+  "dialogConfirmContentDeleteUser": "Slett brukeren din fra Sweetspots. Delte leirplasser, kommentarer, og bilder må eventuelt slettes manuelt _før_ du sletter brukeren. Denne handlingen kan ikke angres.",
+  "dialogConfirmContentDeleteTripPlan": "Slett turplan {plan}?",
+  "@dialogConfirmContentDeleteTripPlan" : {
+        "placeholders": {
+            "plan": {}
+            }
+    },
+
+  "dialogConfirmActionDelete": "Slett",
+  "dialogConfirmActionDismiss": "Lukk",
+  "dialogConfirmActionAdd": "Legg til",
+  "dialogConfirmActionDeleteUser": "Slett meg",
+  "dialogConfirmActionLogOut": "Logg ut",
+
+  "commentDeletedSnackBar": "Kommentar slettet!",
+  "campDeletedSnackBar": "Leirplass slettet!",
+
+  "feedbackTitle": "Tilbakemelding",
+  "feedbackHint": "Tilbakemelding",
+  "feedbackLabel": "Tilbakemelding",
+  "feedbackDescription": "Hjelp til å forbedre Sweetspots! Send inn forslag til funksjoner du ønsker/bugs du ser etc. Du kan også vurdere å sende en email.",
+  "feedbackAddedSnackBar": "Tilbakemelding lastet opp, takk!",
+
+  "shareEmailSubject": "Sjekk ut denne Sweetspotten",
+  "dynamicLinkTitle": "Sjekk ut denne Sweetspotten",
+  "dynamicLinkDescription": "Sweetspots er en app for å oppdage og dele leirplasser.",
+  "dynamicLinkInternetError": "Kan ikke lage link, ingen internettforbindelse!",
+
+  "translateHeader": "Oversett",
+  "translateError": "Kunne ikke oversette..",
+  "translateErrorInternet": "Kunne ikke oversette, ingen internett forbindelse!",
+
+  "anonymous": "Anonym",
+  "uploadedByYou": "deg."
+
+}
