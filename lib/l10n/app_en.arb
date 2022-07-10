@@ -10,13 +10,13 @@
 
   "onboardingFirstTitle": "Camping has never been more sweet",
   "onboardingFirstBody1": "Find the perfect camp spot, or share your own favorites.",
-  "onboardingFirstBody2": "Sweetspots is in open beta. Please help improve Sweetspots by sharing ideas and bugs, and most importantly any nice (or not that nice!) camping spots you have pictures of! Thank you! :)",
+  "onboardingFirstBody2": "Sweetspots is a simple app for finding and sharing backcountry camp spots in Norway. All content is user generated - if you have been to a nice spot there are probably many others who would enjoy knowing where it is!",
   "onboardingFirstBody3": "Sweetspots share some data with 3rd parties to be able to function.",
   "onboardingFirstBody4": "Privacy policy",
 
   "onboardingStart": "Sweet!",
 
-  "sweetspotsAbout": "Sweetspots is a small app for exploring and sharing camp spots in Norway. All content is user generated - if you have a favorite spot there probably exist many other people who would enjoy using it!",
+  "sweetspotsAbout": "Sweetspots is a simple app for finding and sharing backcountry camp spots in Norway. All content is user generated - if you have been to a nice spot there are probably many others who would enjoy knowing where it is!",
   "sweetspotsFree": "Sweetspots is of course 100% free to use, just like nature should be.",
   "aboutVersion": "Version",
 
@@ -33,10 +33,12 @@
   "mapFilterMore": "Filter camp spots",
   "mapFilterClear": "Clear",
 
-  "filterExtendedTitle": "Add filters",
+  "filterExtendedTitle": "Filter spots",
+  "filterExtendedSortTitle": "Filter and sort spots",
   "filterExtendedApply": "Save",
   "filterExtendedClear": "Clear",
   "filterExtendedStars": "Stars",
+  "filterExtendedTripPlan": "Trip plan",
   "filterExtendedSliderValue": "Max distance: {radius} km",
   "@filterExtendedSliderValue" : {
         "placeholders": {
@@ -44,6 +46,12 @@
             }
     },
   "filterExtendedSliderValueShowAll": "Max distance:  -  km",
+
+  "sortTitle": "Sort by",
+  "sortTypeDistance": "Closest",
+  "sortTypeDateAdded": "Newest added",
+  "sortTypeDateFavorited": "Newest favorited",
+  "sortTypeRating": "Highest rating",
 
   "drawerNotLoggedIn": "Not signed in",
   "drawerLogIn": "Sign in",
@@ -61,9 +69,10 @@
   "drawerSnackBarUserDeleted": "Your user was deleted!",
   "drawerAllemannsretten": "Freedom to roam",
   "drawerSettings": "Settings",
+  "drawerSupport": "Support Sweetspots",
 
   "tripPlannerTitle": "Trip planner",
-  "plannerAddList": "Add new trip plan",
+  "plannerAddList": "Add to new trip plan",
   "plannerAddToList": "Add to trip plan",
   "plannerAddListName": "Enter plan name",
   "plannerAddListNameLabel": "Plan name",
@@ -95,15 +104,21 @@
             }
     },
   "plannerSlideActionAdd": "Add",
+  "plannerMapTooltip": "Show on map",
 
   "settingsTitle": "Settings",
   "settingsMap": "Map",
-  "settingsMapV2": "Use new map (beta)",
+  "settingsMapV2": "Use new map",
   "settingsMapV2Description": "Supports clustering with #symbols.",
   "settingsCluster": "Cluster symbols",
   "settingsCompass": "Show compass",
   "settingsTilt": "Tilt map",
   "settingsRotate": "Rotate map",
+  "settingsResetIntroductionTitle": "Reset introduction guide",
+  "settingsResetIntroductionDescription": "Pressing this will show the introduction guide again.",
+  "settingsBeta": "Beta",
+  "settingsUtCabinTitle": "Show DNT cabins on map",
+  "settingsUtCabinDescription": "Show DNT cabins from ut.no on map.",
 
   "hamburgerToolTip": "Show sidebar",
 
@@ -220,15 +235,17 @@
 
   "aboutTitle": "About Sweetspots",
   "aboutHeader": "Sweetspots",
-  "aboutText1": "Sweetspots was made as a way for people to easier find awesome free camping spots all over Norway.",
-  "aboutText2": "Sweetspots is made with lots of kos in Norway <3",
+  "aboutText1": "Sweetspots is a simple app for finding and sharing backcountry camp spots in Norway. All content is user generated - if you have been to a nice spot there are probably many others who would enjoy knowing where it is!",
+  "aboutText2": "Sweetspots is made with lots of <3 in Norway",
   "aboutContact": "Contact",
   "aboutContactSubject": "Sweetspots contact",
+  "aboutGithub": "Add feature requests & more on Github!",
 
-  "policyTitle": "Sweetspots Privacy Policy",
-  "policyHeader": "Policy",
+  "policyTitle": "Privacy Policy",
   "policyText1": "By using the app, some data is sent to 3rd parties (Mapbox, Google, Apple, Facebook). This is necessary to deliver the service. By signing in, Sweetspots is saving your email, name, and profile picture.",
   "policyUrl": "http://bit.ly/koyekos-privacy",
+  "policyReadMore": "Read more",
+  "policyEula": "EULA",
 
   "campListLoading": "Looking for camps...",
   "campListUnfavoritedUndo": "UNDO",
@@ -241,8 +258,9 @@
   "createdNoCampsFound2": "Press",
   "createdNoCampsFound3": "to share a camp.",
   "tripPlannerNoPlansFound1": "You have not added any trip plans!",
-  "tripPlannerNoPlansFound2": "Press",
-  "tripPlannerNoPlansFound3": "to add a trip plan.",
+  "tripPlannerNoPlansFound2": "Trip plans help you organize camps for your next adventures.",
+  "tripPlannerNoPlansFound3": "Press",
+  "tripPlannerNoPlansFound4": "to add a trip plan.",
   "tripPlannerNoCampsFound1": "You have not added any spots to this trip plan!",
   "tripPlannerNoCampsFound2": "Press",
   "tripPlannerNoCampsFound3": "to add a spot.",
@@ -284,6 +302,7 @@
   "dialogLoginReasonReport": "report",
   "dialogLoginReasonAddTripPlan": "add a trip plan",
   "dialogLoginReasonAddToTripPlan": "add a spot to a trip plan",
+  "dialogLoginReasonBuyProduct": "buy a product",
 
   "dialogWebTitle": "Web not supported",
   "dialogWebContent": "Adding camp from web is currently not supported. Please use the mobile app.",
@@ -317,12 +336,12 @@
   "feedbackTitle": "Feedback",
   "feedbackHint": "Feedback",
   "feedbackLabel": "Feedback",
-  "feedbackDescription": "Help improve Sweetspots! If you have any feature requests/bugs etc. you can send in in here. You can also consider sending an email.",
+  "feedbackDescription": "Help improve Sweetspots! If you have any feature requests/bugs etc. you can send in in here. Or you can do it on ",
   "feedbackAddedSnackBar": "Feedback added, thanks!",
 
   "shareEmailSubject": "Check out this Sweetspot",
-  "dynamicLinkTitle": "Check out this Sweetspot",
-  "dynamicLinkDescription": "Sweetspots is an app for discovering and sharing camp spots.",
+  "dynamicLinkTitle": "Sweetspots",
+  "dynamicLinkDescription": "Check out this Sweetspot. Sweetspots is an app for discovering and sharing camp spots.",
   "dynamicLinkInternetError": "Cannot make link, no internet connection!",
 
   "translateHeader": "Translate",
@@ -330,6 +349,48 @@
   "translateErrorInternet": "Could not translate, no internet connection!",
 
   "anonymous": "Anonymous",
-  "uploadedByYou": "you."
+  "uploadedByYou": "you.",
+
+  "storeTitle": "Support Sweetspots",
+  "storeLoading": "Loading products..",
+  "storeLoadingError": "Error loading products, please try again later.",
+  "storeNoProducts": "Found no products, please try again later.",
+  "storeDonateTitle": "Donate",
+  "storeSubscriptionTitle": "Pro subscription",
+  "storePurchaseError": "Error processing purchase.",
+  "storeSubscriptionPeriod": "month",
+  "storeProDescription": "All pro subscriptions give access to the same features, which currently are: \"Trip planner\", and early access to new features.",
+
+  "profileActivePro": "Active Pro mode:",
+
+  "proTripPlanner": "Trip planner is currently free to use, however it will become a paid Pro feature in the future.",
+  "proNotActive": "You do not have an active Pro subscription!",
+
+  "showcaseAddCampTitle": "Add a new camp",
+  "showcaseAddCampDescription": "Press this button to add a new camp. \nTry it out!",
+  "showcaseFilterTitle": "Filter camps",
+  "showcaseFilterDescription": "Press this button to filter camps on map.",
+  "showcaseMenuTitle": "Show sidebar",
+  "showcaseMenuDescription": "Press this button to show the sidebar.",
+
+  "utCabinTypeDnt": "DNT",
+  "utCabinTypePrivate": "Private",
+  "utCabinServiceLevelBetjent": "Serviced",
+  "utCabinServiceLevelUbetjent": "No service",
+  "utCabinServiceLevelSelvbetjent": "Self service",
+  "utCabinServiceLevelServering": "Food serving",
+  "utCabinServiceLevelStengt": "Closed",
+  "utCabinServiceLevelIngenSenger": "No beds",
+  "utCabinServiceLevelNodbu": "Emergency shelter",
+  "utCabinBeds": "Beds",
+  "utCabinAltitude": "Altitude",
+  "utNotice": "Data delivered by ut.no",
+  "utReadMore": "Read more",
+  "utLoadingCabinFailed": "Failed to load data about cabin with id {id}",
+  "@utLoadingCabinFailed" : {
+        "placeholders": {
+            "id": {}
+            }
+    }
 
 }

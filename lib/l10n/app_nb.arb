@@ -10,11 +10,11 @@
 
   "onboardingFirstTitle": "Friluftsliv har aldri vært mer sweet",
   "onboardingFirstBody1": "Finn den perfekte leirplassen, eller del dine egne favoritter.",
-  "onboardingFirstBody2": "Sweetspots er i åpen beta. Om du også digger å være i naturen og ønsker å gjøre din neste tur enda bedre kan du dele Sweetspots med venner, og ikke minst dele fine (og ikke såå fine) leirplass du har bilde av! Om det er noe du savner eller du finner bugs kan du gi tilbakemelding i appen. All tilbakemelding er velkommen. Takk! :)",
+  "onboardingFirstBody2": "Sweetspots er en enkel liten app for å finne og dele leirplasser i Norge. Alt innhold er brukergenerert - har du vært på en fin plass er det sikkert mange andre som kan ha glede av å vite hvor den er!",
   "onboardingFirstBody3": "Sweetspots deler posisjonsdata og enhetsdata med 3. parter for å levere tjenesten.",
   "onboardingFirstBody4": "Personvernerklæring",
 
-  "sweetspotsAbout": "Sweetspots er en enkel liten app hvor du kan finne og dele leirplasser i Norge. Alt innhold er brukergenerert - har du en favorittplass er det sikkert mange andre som kan ha glede av å vite hvor den er!",
+  "sweetspotsAbout": "Sweetspots er en enkel liten app for å finne og dele leirplasser i Norge. Alt innhold er brukergenerert - har du vært på en fin plass er det sikkert mange andre som kan ha glede av å vite hvor den er!",
   "sweetspotsFree": "Sweetspots er selvfølgelig 100% gratis å bruke, akkurat som naturen burde være.",
   "aboutVersion": "Versjon",
 
@@ -34,9 +34,11 @@
   "mapFilterClear": "Fjern",
 
   "filterExtendedTitle": "Filtrer leirplasser",
+  "filterExtendedSortTitle": "Filtrer og sorter leirplasser",
   "filterExtendedApply": "Lagre",
   "filterExtendedClear": "Nullstill",
   "filterExtendedStars": "Stjerner",
+  "filterExtendedTripPlan": "Turplan",
   "filterExtendedSliderValue": "Max avstand: {radius} km",
   "@filterExtendedSliderValue" : {
         "placeholders": {
@@ -44,6 +46,12 @@
         }
     },
   "filterExtendedSliderValueShowAll": "Max avstand:  -  km",
+
+  "sortTitle": "Sorter på",
+  "sortTypeDistance": "Nærmeste",
+  "sortTypeDateAdded": "Nyeste lagt til",
+  "sortTypeDateFavorited": "Nyeste favorisert",
+  "sortTypeRating": "Høyeste rating",
 
   "drawerNotLoggedIn": "Ikke logget inn",
   "drawerLogIn": "Logg inn",
@@ -55,12 +63,13 @@
   "drawerFeedbackSubject": "Sweetspots tilbakemelding",
   "drawerFavoritedCamps": "Mine favoritter",
   "drawerTripPlanner": "Turplanlegger",
-  "drawerTripPlannerAddList": "Legg til liste",
+  "drawerTripPlannerAddList": "Legg til i ny liste",
   "drawerMyCamps": "Mine leirplasser",
   "drawerToplist": "Toppliste",
   "drawerSnackBarUserDeleted": "Brukeren din er slettet!",
   "drawerAllemannsretten": "Allemannsretten",
   "drawerSettings": "Innstillinger",
+  "drawerSupport": "Støtt Sweetspots",
 
   "tripPlannerTitle": "Turplanlegger",
   "plannerAddList": "Legg til turplan",
@@ -95,15 +104,21 @@
             }
     },
   "plannerSlideActionAdd": "Legg til",
+  "plannerMapTooltip": "Vis på kart",
 
   "settingsTitle": "Innstillinger",
   "settingsMap": "Kart",
-  "settingsMapV2": "Bruk nytt kart (beta)",
+  "settingsMapV2": "Bruk nytt kart",
   "settingsMapV2Description": "Støtter clustering med #symboler.",
   "settingsCluster": "Clustre symboler",
   "settingsCompass": "Vis kompass",
   "settingsTilt": "Tilt kart",
   "settingsRotate": "Roter kart",
+  "settingsResetIntroductionTitle": "Nullstill introduksjonsguiden",
+  "settingsResetIntroductionDescription": "Dette vil vise deg introduksjonsguiden igjen.",
+  "settingsBeta": "Beta",
+  "settingsUtCabinTitle": "Vis DNT hytter på kartet",
+  "settingsUtCabinDescription": "Vis DNT hytter fra ut.no på kartet.",
 
   "hamburgerToolTip": "Vis sidebar",
 
@@ -220,15 +235,17 @@
 
   "aboutTitle": "Om Sweetspots",
   "aboutHeader": "Sweetspots",
-  "aboutText1": "Sweetspots ble laget for at folk skal lettere finne den perfekte leirplassen og ha det koselig på tur.",
+  "aboutText1": "Sweetspots er en enkel liten app for å finne og dele leirplasser i Norge. Alt innhold er brukergenerert - har du vært på en fin plass er det sikkert mange andre som kan ha glede av å vite hvor den er!",
   "aboutText2": "Sweetspots er laget med mye kos i Norge <3",
   "aboutContact": "Kontakt",
   "aboutContactSubject": "Sweetspots kontakt",
+  "aboutGithub": "Legg til feature requests & mer på Github!",
 
-  "policyTitle": "Sweetspots Personvernerklæring",
-  "policyHeader": "Personvernerklæring",
+  "policyTitle": "Personvernerklæring",
   "policyText1": "Ved å bruke appen sendes data automatisk til 3. parts tjenesteleverandører (Mapbox, Google, Apple, Facebook). Dette er nødvendig for å levere tjenesten. Ved å logge inn lagrer Sweetspots email-adresse, navn, og profilbilde.",
   "policyUrl": "http://bit.ly/koyekos-privacy",
+  "policyReadMore": "Les mer",
+  "policyEula": "EULA",
 
   "campListLoading": "Speider etter leirplasser...",
   "campListUnfavoritedUndo": "ANGRE",
@@ -241,8 +258,9 @@
   "createdNoCampsFound2": "Klikk",
   "createdNoCampsFound3": "for å dele en leirplass.",
   "tripPlannerNoPlansFound1": "Du har ikke lagt til noen turplaner!",
-  "tripPlannerNoPlansFound2": "Press",
-  "tripPlannerNoPlansFound3": "for å legge til en turplan.",
+  "tripPlannerNoPlansFound2": "Turplaner hjelper deg å organisere leirplasser for dine neste eventyr.",
+  "tripPlannerNoPlansFound3": "Press",
+  "tripPlannerNoPlansFound4": "for å legge til en turplan.",
   "tripPlannerNoCampsFound1": "Du har ikke lagt til noen plasser i denn turplanleggeren!",
   "tripPlannerNoCampsFound2": "Klikk",
   "tripPlannerNoCampsFound3": "for å legge til en plass.",
@@ -284,6 +302,7 @@
   "dialogLoginReasonReport": "rapportere",
   "dialogLoginReasonAddTripPlan": "legge til en turplan",
   "dialogLoginReasonAddToTripPlan": "legge et spot til en turplan",
+  "dialogLoginReasonBuyProduct": "kjøpe et produkt",
 
   "dialogWebTitle": "Web ikke støttet",
   "dialogWebContent": "Å legge til leirplasser fra web er foreløpig ikke støttet. Vennligst bruk mobilappen.",
@@ -317,12 +336,12 @@
   "feedbackTitle": "Tilbakemelding",
   "feedbackHint": "Tilbakemelding",
   "feedbackLabel": "Tilbakemelding",
-  "feedbackDescription": "Hjelp til å forbedre Sweetspots! Send inn forslag til funksjoner du ønsker/bugs du ser etc. Du kan også vurdere å sende en email.",
+  "feedbackDescription": "Hjelp til å forbedre Sweetspots! Send inn forslag til funksjoner du ønsker/bugs du ser etc. Du kan også gjøre det på ",
   "feedbackAddedSnackBar": "Tilbakemelding lastet opp, takk!",
 
   "shareEmailSubject": "Sjekk ut denne Sweetspotten",
-  "dynamicLinkTitle": "Sjekk ut denne Sweetspotten",
-  "dynamicLinkDescription": "Sweetspots er en app for å oppdage og dele leirplasser.",
+  "dynamicLinkTitle": "Sweetspots",
+  "dynamicLinkDescription": "Sjekk ut denne Sweetspotten. Sweetspots er en app for å oppdage og dele leirplasser.",
   "dynamicLinkInternetError": "Kan ikke lage link, ingen internettforbindelse!",
 
   "translateHeader": "Oversett",
@@ -330,6 +349,48 @@
   "translateErrorInternet": "Kunne ikke oversette, ingen internett forbindelse!",
 
   "anonymous": "Anonym",
-  "uploadedByYou": "deg."
+  "uploadedByYou": "deg.",
 
+  "storeTitle": "Støtt Sweetspots",
+  "storeTitle": "Støtt Sweetspots",
+  "storeLoading": "Laster inn produkter..",
+  "storeLoadingError": "Kunne ikke laste inn produkter, vennligst prøv igjen senere.",
+  "storeNoProducts": "Found no products, please try again later.",
+  "storeDonateTitle": "Doner",
+  "storeSubscriptionTitle": "Pro abonnement",
+  "storePurchaseError": "Kunne ikke prosessere kjøp.",
+  "storeSubscriptionPeriod": "måned",
+  "storeProDescription": "All pro abonnementer gir tilgang på de samme funksjonene, som foreløpig er: \"Turplanlegger\", og tidligere tilgang på nye funksjoner.",
+
+  "profileActivePro": "Aktivert Pro modus:",
+
+  "proTripPlanner": "Turplanlegger er foreløpig gratis å bruke, men vil bli en betalt Pro tjeneste i framtiden.",
+  "proNotActive": "Du har ikke en aktiv pro abonnement!",
+
+  "showcaseAddCampTitle": "Legg til en ny leirplass",
+  "showcaseAddCampDescription": "Trykk her for å legge til en ny leirplass. \nPrøv det nå!",
+  "showcaseFilterTitle": "Filtrer leirplasser",
+  "showcaseFilterDescription": "Trykk her for å filtrere leirplassene på kartet.",
+  "showcaseMenuTitle": "Vis meny",
+  "showcaseMenuDescription": "Trykk her for å vise menyen.",
+
+  "utCabinTypeDnt": "DNT",
+  "utCabinTypePrivate": "Privat",
+  "utCabinServiceLevelBetjent": "Betjent",
+  "utCabinServiceLevelUbetjent": "Ubetjent",
+  "utCabinServiceLevelSelvbetjent": "Selvbetjent",
+  "utCabinServiceLevelServering": "Servering",
+  "utCabinServiceLevelStengt": "Stengt",
+  "utCabinServiceLevelIngenSenger": "Ingen sengeplasser",
+  "utCabinServiceLevelNodbu": "Nødbu",
+  "utCabinBeds": "Senger",
+  "utCabinAltitude": "Høyde",
+  "utNotice": "Data levert av ut.no",
+  "utReadMore": "Les mer",
+  "utLoadingCabinFailed": "Kunne ikke laste data om DNT hytte med id {id}",
+  "@utLoadingCabinFailed" : {
+        "placeholders": {
+            "id": {}
+            }
+    }
 }

@@ -10,8 +10,8 @@ project 'Runner', {
   'Release' => :release,
 }
 
-firestore_version = '8.11.0'
-pod 'FirebaseFirestore', :git => 'https://github.com/invertase/firestore-ios-sdk-frameworks.git', :tag => $firestore_version
+$FirebaseSDKVersion = '8.11.0'
+pod 'FirebaseFirestore', :git => 'https://github.com/invertase/firestore-ios-sdk-frameworks.git', :tag => $FirebaseSDKVersion
 
 def flutter_root
   generated_xcode_build_settings_path = File.expand_path(File.join('..', 'Flutter', 'Generated.xcconfig'), __FILE__)
