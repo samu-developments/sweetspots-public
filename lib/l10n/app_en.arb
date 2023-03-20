@@ -10,7 +10,6 @@
 
   "onboardingFirstTitle": "Camping has never been more sweet",
   "onboardingFirstBody1": "Find the perfect camp spot, or share your own favorites.",
-  "onboardingFirstBody2": "Sweetspots is a simple app for finding and sharing backcountry camp spots in Norway. All content is user generated - if you have been to a nice spot there are probably many others who would enjoy knowing where it is!",
   "onboardingFirstBody3": "Sweetspots share some data with 3rd parties to be able to function.",
   "onboardingFirstBody4": "Privacy policy",
 
@@ -21,6 +20,11 @@
   "aboutVersion": "Version",
 
   "tryWebBeta": "Try the web beta",
+
+  "map": "Map",
+  "myFavorites": "My favorites",
+  "profile": "Profile",
+  "spots": "Sweetspots",
 
   "mapSearchHint": "Search...",
   "mapActionTooltipGps": "Turn on GPS",
@@ -108,12 +112,10 @@
 
   "settingsTitle": "Settings",
   "settingsMap": "Map",
-  "settingsMapV2": "Use new map",
-  "settingsMapV2Description": "Supports clustering with #symbols.",
-  "settingsCluster": "Cluster symbols",
   "settingsCompass": "Show compass",
   "settingsTilt": "Tilt map",
   "settingsRotate": "Rotate map",
+  "settingsScale": "Show scale bar",
   "settingsResetIntroductionTitle": "Reset introduction guide",
   "settingsResetIntroductionDescription": "Pressing this will show the introduction guide again.",
   "settingsBeta": "Beta",
@@ -316,7 +318,7 @@
   "dialogConfirmContentDeleteCamp": "Delete camp?",
   "dialogConfirmContentAddImage": "Add image?",
   "dialogConfirmContentLogOut": "Sign out? You need an internet connection to load Sweetspots again.",
-  "dialogConfirmContentDeleteUser": "Delete your user from Sweetspots. Camp spots, comments, and images have to be deleted _before_ you delete your user. This action cannot be undone.",
+  "dialogConfirmContentDeleteUser": "Delete your user from Sweetspots. Camp spots, comments, and images have to be deleted before you delete your user. This action cannot be undone.",
   "dialogConfirmContentDeleteTripPlan": "Delete trip plan {plan}?",
   "@dialogConfirmContentDeleteTripPlan" : {
         "placeholders": {

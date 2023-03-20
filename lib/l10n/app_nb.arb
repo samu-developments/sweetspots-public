@@ -10,9 +10,9 @@
 
   "onboardingFirstTitle": "Friluftsliv har aldri vært mer sweet",
   "onboardingFirstBody1": "Finn den perfekte leirplassen, eller del dine egne favoritter.",
-  "onboardingFirstBody2": "Sweetspots er en enkel liten app for å finne og dele leirplasser i Norge. Alt innhold er brukergenerert - har du vært på en fin plass er det sikkert mange andre som kan ha glede av å vite hvor den er!",
   "onboardingFirstBody3": "Sweetspots deler posisjonsdata og enhetsdata med 3. parter for å levere tjenesten.",
   "onboardingFirstBody4": "Personvernerklæring",
+  "onboardingStart": "Sweet!",
 
   "sweetspotsAbout": "Sweetspots er en enkel liten app for å finne og dele leirplasser i Norge. Alt innhold er brukergenerert - har du vært på en fin plass er det sikkert mange andre som kan ha glede av å vite hvor den er!",
   "sweetspotsFree": "Sweetspots er selvfølgelig 100% gratis å bruke, akkurat som naturen burde være.",
@@ -20,7 +20,10 @@
 
   "tryWebBeta": "Prøv web betaen",
 
-  "onboardingStart": "Sweet!",
+  "map": "Kart",
+  "myFavorites": "Mine favoritter",
+  "profile": "Profil",
+  "spots": "Sweetspots",
 
   "mapSearchHint": "Søk...",
   "mapActionTooltipGps": "Skru på GPS",
@@ -108,12 +111,10 @@
 
   "settingsTitle": "Innstillinger",
   "settingsMap": "Kart",
-  "settingsMapV2": "Bruk nytt kart",
-  "settingsMapV2Description": "Støtter clustering med #symboler.",
-  "settingsCluster": "Clustre symboler",
   "settingsCompass": "Vis kompass",
   "settingsTilt": "Tilt kart",
   "settingsRotate": "Roter kart",
+  "settingsScale": "Vis målestokk",
   "settingsResetIntroductionTitle": "Nullstill introduksjonsguiden",
   "settingsResetIntroductionDescription": "Dette vil vise deg introduksjonsguiden igjen.",
   "settingsBeta": "Beta",
@@ -258,7 +259,7 @@
   "createdNoCampsFound2": "Klikk",
   "createdNoCampsFound3": "for å dele en leirplass.",
   "tripPlannerNoPlansFound1": "Du har ikke lagt til noen turplaner!",
-  "tripPlannerNoPlansFound2": "Turplaner hjelper deg å organisere leirplasser for dine neste eventyr.",
+  "tripPlannerNoPlansFound2": "Turplaner hjelper deg å organisere leirplasser for dine neste turer.",
   "tripPlannerNoPlansFound3": "Press",
   "tripPlannerNoPlansFound4": "for å legge til en turplan.",
   "tripPlannerNoCampsFound1": "Du har ikke lagt til noen plasser i denn turplanleggeren!",
@@ -316,7 +317,7 @@
   "dialogConfirmContentDeleteCamp": "Slett leirplass?",
   "dialogConfirmContentAddImage": "Legg til bilde?",
   "dialogConfirmContentLogOut": "Logg ut? Du må ha en internettilkobling for å laste inn Sweetspots igjen.",
-  "dialogConfirmContentDeleteUser": "Slett brukeren din fra Sweetspots. Delte leirplasser, kommentarer, og bilder må eventuelt slettes manuelt _før_ du sletter brukeren. Denne handlingen kan ikke angres.",
+  "dialogConfirmContentDeleteUser": "Slett brukeren din fra Sweetspots. Delte leirplasser, kommentarer, og bilder må eventuelt slettes manuelt før du sletter brukeren. Denne handlingen kan ikke angres.",
   "dialogConfirmContentDeleteTripPlan": "Slett turplan {plan}?",
   "@dialogConfirmContentDeleteTripPlan" : {
         "placeholders": {
