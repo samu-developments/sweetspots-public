@@ -1,4 +1,4 @@
-Sweetspots er tatt ned fra Apple app store grunnet høy kostnad (~700 kr/år), og utviklerkontoen hos Google ble sperret siden jeg ikke vil dele hjem-adresse som Google har begynt å kreve for apper som tar betalt. Heldigvis lever den videre på [https://sweetspot s.web.app](https://sweetspot s.web.app). Noe arbeid gjenstår for å gjøre den 100% kompatibel med web.  
+Sweetspots er tatt ned fra Apple app store grunnet høy kostnad (~700 kr/år), og utviklerkontoen hos Google ble sperret siden jeg ikke vil dele hjem-adresse som Google har begynt å kreve for apper som tar betalt. Heldigvis lever den videre på [https://sweetspots.web.app](https://sweetspot s.web.app). Noe arbeid gjenstår for å gjøre den 100% kompatibel med web.  
 
 # sweetspots-public
 Open source deler Sweetspots appen. Github brukes også for issues og feature requests.
